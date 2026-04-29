@@ -1,9 +1,29 @@
-* {
+*{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.test {
-    color: brown;
+.test{
+    color:chocolate;
     text-align: center;
     margin-top: 50px;
+}
+
+.swiper{
+    max-width: 600px;
+    height: 350px;
+    margin-top: 50px;
+}
+
+.swiper-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-pagination-bullet-active{
+    background: #fff;
+}
+
+.swiper-navigation-icon{
+    color: #fff;
 }
